@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profecía | Joyería artesanal</title>
+  <meta name="description" content="Joyería artesanal hecha a mano con piedras naturales, identidad y significado." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="#inicio" class="brand">Profecía</a>
+    <button class="menu-btn" aria-label="Abrir menú">☰</button>
+    <nav class="nav">
+      <a href="#historia">Historia</a>
+      <a href="#coleccion">Colección</a>
+      <a href="#significado">Significado</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">Joyería y artículos artesanales</p>
+        <h1>Piezas hechas a mano,<br>historias hechas para ti.</h1>
+        <p class="lead">Piedras naturales, creatividad artesanal y piezas únicas que acompañan tu historia.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#coleccion">Descubrir piezas</a>
+          <a class="btn ghost" href="#historia">Conocer Profecía</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="stone stone-1"></div>
+        <div class="stone stone-2"></div>
+        <div class="ring"></div>
+      </div>
+    </section>
+
+    <section class="section split" id="historia">
+      <div>
+        <p class="eyebrow">Nuestra historia</p>
+        <h2>La alquimia de lo hecho a mano</h2>
+      </div>
+      <div class="copy">
+        <p>Profecía nace cuando las manos, la creatividad y los elementos de la naturaleza se encuentran para transformar lo sencillo en algo extraordinario.</p>
+        <p>Cada pieza se trabaja con tiempo, paciencia e imaginación para convertirse en un objeto con significado.</p>
+      </div>
+    </section>
+
+    <section class="section collection" id="coleccion">
+      <div class="section-heading">
+        <p class="eyebrow">Colección</p>
+        <h2>Una pieza para cada historia</h2>
+        <p>Espacios listos para colocar tus fotografías reales y precios cuando tú decidas.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <div class="product-placeholder">Piedra natural</div>
+          <h3>Anillos</h3>
+          <p>Diseños artesanales que combinan textura, color y significado.</p>
+        </article>
+        <article class="card">
+          <div class="product-placeholder alt">Hecho a mano</div>
+          <h3>Collares</h3>
+          <p>Piezas para llevar cerca de ti un símbolo personal.</p>
+        </article>
+        <article class="card">
+          <div class="product-placeholder third">Esencia</div>
+          <h3>Piezas especiales</h3>
+          <p>Creaciones únicas para regalar, recordar o expresar quién eres.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section manifesto" id="significado">
+      <p class="eyebrow">Nuestra esencia</p>
+      <blockquote>
+        “Creamos joyería que celebra el amor en todas sus formas, para que cada persona pueda llevar su historia, identidad y energía en una pieza única, auténtica y sin etiquetas.”
+      </blockquote>
+      <p class="manifesto-note">Aquí el valor se lo das tú.</p>
+    </section>
+
+    <section class="section values">
+      <article>
+        <span>01</span>
+        <h3>Natural</h3>
+        <p>Materiales y elementos inspirados en la tierra.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Artesanal</h3>
+        <p>Hecho a mano con paciencia, cuidado y detalle.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Personal</h3>
+        <p>Piezas que expresan identidad, emoción y conexión.</p>
+      </article>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div>
+        <p class="eyebrow">Hablemos</p>
+        <h2>Encuentra una pieza con significado</h2>
+        <p>Agrega aquí tu WhatsApp e Instagram para recibir pedidos y mostrar nuevas creaciones.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn primary" href="#" onclick="alert('Sustituye este enlace por tu WhatsApp'); return false;">WhatsApp</a>
+        <a class="btn ghost" href="#" onclick="alert('Sustituye este enlace por tu Instagram'); return false;">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Profecía · Joyería artesanal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
