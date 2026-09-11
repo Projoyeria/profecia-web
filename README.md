@@ -1,2 +1,3 @@
 # Profecía web v3
-Incluye fotografías reales extraídas del catálogo 2026, WhatsApp e Instagram.
+Versión simplificada: las fotografías están en la misma carpeta que index.html.
+Sube los 8 archivos directamente a la raíz del repositorio.
