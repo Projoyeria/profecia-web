@@ -1,2 +1,2 @@
-# Profecía web v2
-Conectada a WhatsApp 222 363 3097 e Instagram @profecia_joyeria.
+# Profecía web v3
+Incluye fotografías reales extraídas del catálogo 2026, WhatsApp e Instagram.
